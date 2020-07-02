@@ -31,7 +31,7 @@ public class BaseTest {
 
 	}
 
-	@AfterTest
+	@AfterTest 
 	public void endSetUp() {
 		driver.quit();
 		Reporter.log("Test completed");
